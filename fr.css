@@ -144,5 +144,6 @@ a.button {
 .bottom_info {
   background-image: url("./img/pink_circles.png");
   background-repeat: no-repeat;
-background-position: right bottom;
+  background-position: right bottom;
+  background-size: 30%;
 }
