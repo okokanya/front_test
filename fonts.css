@@ -4,7 +4,9 @@ a {
   cursor: pointer;
   padding: 0 16px;
 }
-
+li {
+  padding-top: 36px;
+}
 .black {
   color: black;
 }
@@ -14,49 +16,63 @@ a {
 }
 .font_bold {
   font-family: GilroyB;
-  font-size: 51px; 
+  font-size: 51px;
   font-weight: 700;
-  line-height: 56px; 
-  text-align: left;
+  line-height: 56px;
 }
 
 .font_light {
   font-family: Kudryashev;
-  font-size: 51px; 
+  font-size: 51px;
   font-weight: 400;
-  line-height: 56px; 
-  text-align: left;
+  line-height: 56px;
 }
 .small {
   font-family: GilroyL;
-  font-size: 20px; 
+  font-size: 20px;
   font-weight: 400;
-  line-height: 30px; 
-  text-align: left;
+  line-height: 30px;
 }
 .small_light {
   font-family: Kudryashev;
   font-size: 26px;
   font-weight: 400;
-  text-align: left;
 }
 .small_light > a:active {
   border: 1px solid black;
 }
+
+.advantages_header__border {
+  display: flex;
+  border-top: 1px black solid;
+}
 .advantages_header__bold {
-  border-top: 1px solid black;
-  font-family: GilroyL;
-  font-size: 24px; 
+  font-family: GilroyB;
+  font-size: 26px;
   font-weight: 400;
-  line-height: 30px; 
+  line-height: 30px;
   text-align: left;
 }
 
 .advantages_header__light {
   font-family: Kudryashev;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 400;
   text-align: left;
-  border-bottom: 1px black solid;
+}
 
+.advantages_p {
+  font-family: GilroyB;
+  color: #1e0f00;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.note {
+  font-family: GilroyB;
+  color: #1e0f00;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
 }
