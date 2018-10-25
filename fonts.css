@@ -1,0 +1,59 @@
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  padding: 0 16px;
+}
+
+.black {
+  color: black;
+}
+
+.white {
+  color: #ffffff;
+}
+.font_bold {
+  font-family: GilroyB;
+  font-size: 51px; 
+  font-weight: 700;
+  line-height: 56px; 
+  text-align: left;
+}
+
+.font_light {
+  font-family: Kudryashev;
+  font-size: 51px; 
+  font-weight: 400;
+  line-height: 56px; 
+  text-align: left;
+}
+.small {
+  font-family: GilroyL;
+  font-size: 20px; 
+  font-weight: 400;
+  line-height: 30px; 
+  text-align: left;
+}
+.small_light {
+  font-family: Kudryashev;
+  font-size: 26px;
+  font-weight: 400;
+  text-align: left;
+}
+.small_light > a:active {
+  border: 1px solid black;
+}
+.advantages_header__bold {
+  font-family: GilroyL;
+  font-size: 24px; 
+  font-weight: 400;
+  line-height: 30px; 
+  text-align: left;
+}
+
+.advantages_header__light {
+  font-family: Kudryashev;
+  font-size: 26px;
+  font-weight: 400;
+  text-align: left;
+}
