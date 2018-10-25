@@ -44,6 +44,7 @@ a {
   border: 1px solid black;
 }
 .advantages_header__bold {
+  border-top: 1px solid black;
   font-family: GilroyL;
   font-size: 24px; 
   font-weight: 400;
@@ -53,7 +54,9 @@ a {
 
 .advantages_header__light {
   font-family: Kudryashev;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 400;
   text-align: left;
+  border-bottom: 1px black solid;
+
 }

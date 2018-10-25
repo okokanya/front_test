@@ -119,11 +119,18 @@ a.button {
   height: 600px;
 }
 .advantages {
+
+  justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
-  padding: 32px;
+  /* padding: 32px; */
 }
 .advantages_header {
-  border-bottom: 1px black solid;
-  border-top: 1px solid black;
+  padding-top: 170px;
+  background-image: url("./img/adv_sprite.png");
+  background-repeat: no-repeat;
+}
+
+.advantages_img {
+
 }
