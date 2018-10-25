@@ -161,6 +161,9 @@ a.button {
   align-items: center;
 }
 .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
   background-color: #2d449e;
 
