@@ -69,7 +69,8 @@ li {
   line-height: 26px;
 }
 
-.note {
+ol > .note{
+  padding-top: 36px;
   font-family: GilroyB;
   color: #1e0f00;
   font-size: 13px;
