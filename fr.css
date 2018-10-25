@@ -103,6 +103,7 @@ a.button {
 .industry_flex {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .yell_rect_bg {
   background-image: url("./img/yellowrect.png");
