@@ -147,3 +147,27 @@ a.button {
 .padding_bottom {
   padding-bottom: 90px;
 }
+
+.whitening_bg{
+  position: absolute;
+  z-index: 2;
+  background-color: #fd313144;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  color: white;
+  background-color: #2d449e;
+
+  height: 310px;
+  width: 275px;
+
+}
+.form_header {
+
+}
