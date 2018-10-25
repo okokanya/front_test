@@ -68,22 +68,17 @@ a.button {
 }
 
 .industry {
-  margin: 20px 20px 0 0;
+  cursor: pointer;
+  margin: 20px 12px 0 0;
   padding: 12px;
   background-color: #ffffff;
   width: 180px;
   height: 180px;
 }
 .industry:hover {
-  margin: 20px 20px 0 0;
-  cursor: pointer;
-  padding: 12px;
   color: white;
   background-color: black;
   transition: 0.2s;
-
-  width: 180px;
-  height: 180px;
 }
 .industry_header {
   font-family: GilroyB;
@@ -103,7 +98,7 @@ a.button {
 .industry_flex {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 .yell_rect_bg {
   background-image: url("./img/yellowrect.png");
