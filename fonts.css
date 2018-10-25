@@ -101,6 +101,8 @@ textarea {
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  
+  font-family: GilroyL;
   color: white;
   opacity: .4;
   vertical-align: bottom;
@@ -110,4 +112,11 @@ textarea {
 textarea::placeholder{
   line-height: 36px;
   vertical-align: bottom;
+}
+
+.button_line > p {
+  font-family: GilroyL;
+  color: white;
+  opacity: .4;
+  font-size: 8px;
 }
