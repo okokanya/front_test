@@ -9,14 +9,12 @@ hr {
 }
 .main_flex {
   width: 1160px;
-  border: 1px solid blue;
   margin: 0 auto;
   padding-bottom: 140px;
 }
 .width_total {
   padding-top: 80px;
   width: 100%;
-  border: 1px salmon solid;
 }
 
 .bg_gray {
