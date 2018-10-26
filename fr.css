@@ -39,6 +39,19 @@ hr {
 .main_width {
   width: 100%;
 }
+.header_img {
+  height: 24px;
+  width: 24px;
+  background-repeat: no-repeat;
+  background-image: url("./img/header_sprite.png");
+}
+.header_img__phone {
+  background-position-x: 0;
+}
+
+.header_img__glass {
+  background-position-x: -29px;
+}
 
 nav {
   align-items: center;
