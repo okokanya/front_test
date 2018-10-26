@@ -59,6 +59,7 @@ li {
 }
 
 .advantages_p {
+  padding-right: 20px;
   font-family: GilroyB;
   font-size: 16px;
   font-weight: 400;
@@ -122,4 +123,12 @@ textarea::placeholder{
   color: white;
   opacity: .4;
   font-size: 8px;
+}
+
+.gallery-current {
+  background-color: red;
+}
+
+.display_none {
+  display: none;
 }

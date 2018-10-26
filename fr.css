@@ -2,6 +2,10 @@
   box-sizing: border-box;
   margin: 0;
 }
+.overflow {
+  overflow: hidden;
+}
+
 hr {
   border: 0;
   height: 2px;
@@ -129,8 +133,8 @@ a.button {
 }
 
 .how_it_works {
-  width: 50%;
-  padding: 36px 120px 36px 80px;
+  width: 40%;
+  padding-top: 36px;
 }
 .bottom {
   background-color: black;
@@ -148,10 +152,12 @@ a.button {
   padding-bottom: 90px;
 }
 
-.whitening_bg{
-  position: absolute;
+.whitening_bg {
+  display: none;
+  overflow-y: hidden;
+  position: fixed;
   z-index: 2;
-  background-color: #fd313144;
+  background-color: #ffffff9c;
   top: 0;
   left: 0;
   right: 0;
@@ -160,6 +166,7 @@ a.button {
   justify-content: center;
   align-items: center;
 }
+
 .form {
   position: relative;
   display: flex;
@@ -170,7 +177,6 @@ a.button {
   background-color: #2d449e;
   height: 310px;
   width: 275px;
-
 }
 
 button {
@@ -207,5 +213,4 @@ button:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-image: url("./img/close.png");
-
 }
