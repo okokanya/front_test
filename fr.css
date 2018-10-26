@@ -2,8 +2,19 @@
   box-sizing: border-box;
   margin: 0;
 }
+
 .overflow {
   overflow: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.overflow_bottom {
+  bottom: 0;
+
+}
+.overflow_top {
+  top: 0;
 }
 
 hr {

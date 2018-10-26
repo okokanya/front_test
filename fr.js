@@ -5,19 +5,23 @@ const buttonUp = document.getElementById("button_up");
 const buttonDown = document.getElementById("button_down");
 const body = document.getElementById("overflow");
 
-function closeForm (event) {
+function closeForm () {
   proj_form.classList.add("display_none");
   body.classList.remove("overflow");
-
 }
 
-function openForm (event) {
+function openForm () {
   proj_form.classList.remove("display_none");
   body.classList.add("overflow");
 }
+function openFormBottom () {
+  proj_form.classList.remove("display_none");
+  body.classList.add("overflow");
+  body.classList.add("overflow_bottom");
+}
 
 buttonUp.addEventListener('click', openForm);
-buttonDown.addEventListener('click', openForm);
+buttonDown.addEventListener('click', openFormBottom);
 closeButton.addEventListener('click', closeForm);
 
 
