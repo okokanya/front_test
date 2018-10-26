@@ -39,6 +39,7 @@ hr {
 .main_width {
   width: 100%;
 }
+
 .header_img {
   height: 24px;
   width: 24px;
@@ -104,22 +105,13 @@ a.button {
   width: 180px;
   height: 180px;
 }
+
 .industry:hover {
   color: white;
   background-color: black;
   transition: 0.2s;
 }
-.industry_header {
-  font-family: GilroyB;
-  font-size: 16px;
-  padding-bottom: 8px;
-}
-.industry_text {
-  font-family: GilroyL;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 18px;
-}
+
 .industry_text::after {
   content: "⟶";
 }
