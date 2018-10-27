@@ -230,3 +230,9 @@ button:hover {
   background-repeat: no-repeat;
   background-image: url("./img/close.png");
 }
+
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
