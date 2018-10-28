@@ -2,6 +2,7 @@
 body {
   box-sizing: border-box;
   margin: 0;
+  font-family: GilroyL;
 }
 
 /*# sourceMappingURL=styles.css.map */
@@ -14,14 +15,12 @@ hr {
 
 header {
   align-items: center;
-  display: -webkit-flex;
   display: flex;
   margin: 36px 0;
 }
 
 nav {
   align-items: center;
-  display: -webkit-flex;
   display: flex;
   margin: 36px 0;
 }
@@ -65,7 +64,7 @@ nav {
 }
 
 .bg_gray {
-  background-color: #e9eaea;
+  background-color: #eaebeb;
 }
 
 .main_width {
@@ -108,14 +107,12 @@ nav {
 }
 
 .small {
-  font-family: GilroyL;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
 }
 
 a.button {
-  font-family: GilroyL;
   font-size: 20px;
   margin-top: 60px;
   display: flex;
@@ -142,7 +139,6 @@ a.button {
 }
 
 .gilroy_small {
-  font-family: GilroyL;
   font-size: 12px;
   font-weight: 700;
   line-height: 18px;
@@ -154,7 +150,6 @@ a.button {
 
 .gilroy_bottom {
   margin: 32px 0;
-  font-family: GilroyL;
   font-size: 16px;
   font-weight: 700;
   line-height: 18px;
@@ -222,7 +217,7 @@ a.button {
   overflow-y: hidden;
   position: fixed;
   z-index: 2;
-  background-color: #ffffff9c;
+  background-color: rgba(255, 255, 255, 0.612);
   top: 0;
   left: 0;
   right: 0;
@@ -239,14 +234,13 @@ a.button {
   align-items: center;
   flex-direction: column;
   color: white;
-  background-color: #4257a8;
+  background-color: #4256a9;
   height: 310px;
   width: 275px;
 }
 
 button {
-  font-family: GilroyL;
-  background-color: #ffffff00;
+  background-color: transparent;
   color: white;
   padding: 12px 16px;
   font-size: 12px;
@@ -255,8 +249,8 @@ button {
 
 button:hover {
   background-color: white;
-  color: #4257a8;
-  border: 1px solid #4257a8;
+  color: #4256a9;
+  border: 1px solid #4256a9;
 }
 
 .button_line {
@@ -267,7 +261,6 @@ button:hover {
   cursor: pointer;
 }
 .button_line p {
-  font-family: GilroyL;
   color: white;
   opacity: 0.4;
   font-size: 8px;
@@ -374,11 +367,11 @@ input {
   color: white;
   height: 36px;
   width: 100%;
-  background-color: #ffffff00;
+  background-color: transparent;
   outline: none;
   -moz-appearance: none;
-  border: 1px solid #ffffff00;
-  border-bottom: 1px solid #ffffff2a;
+  border: 1px solid transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.165);
 }
 input::placeholder {
   font-family: GilroyL;
@@ -394,11 +387,11 @@ textarea {
   height: 36px;
   width: 100%;
   color: white;
-  background-color: #ffffff00;
+  background-color: transparent;
   outline: none;
   -moz-appearance: none;
-  border: 1px solid #ffffff00;
-  border-bottom: 1px solid #ffffff2a;
+  border: 1px solid transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.165);
   resize: none;
   overflow: hidden;
 }
@@ -417,7 +410,7 @@ textarea::placeholder {
 }
 
 .blue_link {
-  color: #4257a8;
+  color: #4256a9;
   cursor: pointer;
 }
 
