@@ -176,8 +176,7 @@ a.button {
 .phone_bg {
   background-image: url("../img/how-op95.png");
   background-repeat: no-repeat;
-  background-position: right;
-  background-size: auto 80%;
+  background-position: top right;
   height: 580px;
 }
 
