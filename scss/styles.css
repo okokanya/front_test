@@ -5,16 +5,18 @@ body {
 }
 
 /*# sourceMappingURL=styles.css.map */
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
-
 hr {
   margin: 16px 0;
   border: 0;
   height: 2px;
   background: #333;
+}
+
+header {
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+  margin: 36px 0;
 }
 
 nav {
@@ -27,11 +29,11 @@ nav {
 .main_flex {
   width: 1160px;
   margin: 0 auto;
-  padding-bottom: 140px;
+  padding-bottom: 100px;
 }
 
 .width_total {
-  padding-top: 80px;
+  padding-top: 60px;
   width: 100%;
 }
 
@@ -130,8 +132,8 @@ a.button {
   margin: 20px 12px 0 0;
   padding: 12px;
   background-color: white;
-  width: 180px;
-  height: 180px;
+  width: 157px;
+  height: 157px;
 }
 .industry:hover {
   color: white;
@@ -167,7 +169,7 @@ a.button {
   background-image: url("../img/yellowrect.png");
   background-repeat: no-repeat;
   width: 100%;
-  background-position: top right;
+  background-position: right;
   background-size: auto 60%;
 }
 
@@ -326,7 +328,6 @@ li {
 .industry_header {
   font-family: GilroyB;
   font-size: 16px;
-  padding-bottom: 8px;
 }
 
 .advantages_p {
