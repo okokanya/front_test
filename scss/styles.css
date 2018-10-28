@@ -11,6 +11,7 @@ body {
 }
 
 hr {
+  margin: 16px 0;
   border: 0;
   height: 2px;
   background: #333;
@@ -94,8 +95,25 @@ nav {
   flex-direction: column;
   justify-content: center;
 }
+.slider .font_bold {
+  font-family: GilroyB;
+  font-size: 51px;
+  font-weight: 700;
+  line-height: 56px;
+}
+.slider .small {
+  padding-top: 48px;
+}
+
+.small {
+  font-family: GilroyL;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
 
 a.button {
+  font-family: GilroyL;
   font-size: 20px;
   margin-top: 60px;
   display: flex;
@@ -165,6 +183,7 @@ a.button {
   padding-bottom: 140px;
   justify-content: space-between;
   display: flex;
+  line-height: 36px;
 }
 
 .advantages_header {
@@ -280,6 +299,11 @@ a {
 
 li {
   padding-top: 36px;
+  padding-left: 16px;
+}
+
+.indent {
+  text-indent: 12px;
 }
 
 .white {
@@ -288,7 +312,7 @@ li {
 
 .font_bold {
   font-family: GilroyB;
-  font-size: 51px;
+  font-size: 44px;
   font-weight: 700;
   line-height: 56px;
 }
@@ -296,8 +320,7 @@ li {
 .advantages_header__bold {
   font-family: GilroyB;
   font-size: 26px;
-  font-weight: 400;
-  line-height: 30px;
+  line-height: 26px;
 }
 
 .industry_header {
@@ -336,13 +359,6 @@ ol .note {
   border: 1px solid black;
 }
 
-.small {
-  font-family: GilroyL;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 30px;
-}
-
 .advantages_header__border {
   display: flex;
   border-top: 1px black solid;
@@ -361,8 +377,8 @@ input {
   background-color: #ffffff00;
   outline: none;
   -moz-appearance: none;
-  border: 1px solid rgba(153, 153, 153, 0);
-  border-bottom: 1px solid #4257a8;
+  border: 1px solid #ffffff00;
+  border-bottom: 1px solid #ffffff2a;
 }
 input::placeholder {
   font-family: GilroyL;
@@ -382,17 +398,27 @@ textarea {
   outline: none;
   -moz-appearance: none;
   border: 1px solid #ffffff00;
-  border-bottom: 1px solid #4257a8;
+  border-bottom: 1px solid #ffffff2a;
   resize: none;
   overflow: hidden;
 }
 textarea::placeholder {
   line-height: 36px;
   vertical-align: bottom;
+  font-family: GilroyL;
+  color: white;
+  opacity: 0.4;
+  vertical-align: bottom;
+  font-size: 12px;
 }
 
 .display_none {
   display: none;
+}
+
+.blue_link {
+  color: #4257a8;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */

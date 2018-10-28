@@ -5,14 +5,17 @@ $blue: #4257a8;
 $transparent: #ffffff00;
 $gray: #e9eaea;
 $transpGray: #ffffff9c;
+$border_form : #ffffff2a;
+;
 
 * {
   box-sizing: border-box;
   margin: 0;
 }
 
-
 hr {
+  margin: 16px 0;
+
   border: 0;
   height: 2px;
   background: #333;
@@ -47,7 +50,6 @@ nav {
   margin-left: auto;
   margin-right: 0;
 }
-
 
 .overflow {
   overflow: hidden;
@@ -95,9 +97,27 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  .font_bold {
+    font-family: GilroyB;
+    font-size: 51px;
+    font-weight: 700;
+    line-height: 56px;
+  }
+  .small {
+    padding-top: 48px;
+  }
+}
+
+.small {
+  font-family: GilroyL;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
 }
 
 a.button {
+  font-family: GilroyL;
+
   font-size: 20px;
   margin-top: 60px;
   display: flex;
@@ -120,7 +140,8 @@ a.button {
     color: white;
     background-color: black;
     transition: 0.2s;
-}}
+  }
+}
 
 .gilroy_small {
   font-family: GilroyL;
@@ -166,7 +187,9 @@ a.button {
   padding-bottom: 140px;
   justify-content: space-between;
   display: flex;
+  line-height: 36px;
 }
+
 .advantages_header {
   width: 290px;
   padding-top: 170px;
@@ -277,15 +300,19 @@ a {
 
 li {
   padding-top: 36px;
+  padding-left: 16px;
 }
 
+.indent {
+  text-indent: 12px;
+}
 .white {
   color: white;
 }
 
 .font_bold {
   font-family: GilroyB;
-  font-size: 51px;
+  font-size: 44px;
   font-weight: 700;
   line-height: 56px;
 }
@@ -293,8 +320,7 @@ li {
 .advantages_header__bold {
   font-family: GilroyB;
   font-size: 26px;
-  font-weight: 400;
-  line-height: 30px;
+  line-height: 26px;
 }
 
 .industry_header {
@@ -336,13 +362,6 @@ ol {
   }
 }
 
-.small {
-  font-family: GilroyL;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 30px;
-}
-
 .advantages_header__border {
   display: flex;
   border-top: 1px black solid;
@@ -361,8 +380,8 @@ input {
   background-color: $transparent;
   outline: none;
   -moz-appearance: none;
-  border: 1px solid rgba(153, 153, 153, 0);
-  border-bottom: 1px solid $blue;
+  border: 1px solid $transparent;
+  border-bottom: 1px solid $border_form;
   &::placeholder {
     font-family: GilroyL;
     color: white;
@@ -382,15 +401,25 @@ textarea {
   outline: none;
   -moz-appearance: none;
   border: 1px solid $transparent;
-  border-bottom: 1px solid $blue;
+  border-bottom: 1px solid $border_form;
   resize: none;
   overflow: hidden;
   &::placeholder {
     line-height: 36px;
     vertical-align: bottom;
-  }
+    font-family: GilroyL;
+    color: white;
+    opacity: 0.4;
+    vertical-align: bottom;
+    font-size: 12px;
+    }
 }
 
 .display_none {
   display: none;
+}
+
+.blue_link {
+  color: $blue;
+  cursor: pointer;
 }
